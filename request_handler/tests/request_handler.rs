@@ -12,13 +12,13 @@ fn index(req: Request, res: Response) {
 		// .. return res
 }
 
-#[request_handler(GET, "/")]
+#[request_handler(GET, "/posts")]
 fn posts_get(req: Request, res: Response) {
     //.. handle req
 		// .. return res
 }
 
-#[request_handler(POST, "/")]
+#[request_handler(POST, "/posts")]
 fn posts_create(req: Request, res: Response) {
     //.. handle req
 		// .. return res
