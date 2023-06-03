@@ -1,0 +1,13 @@
+[package]
+name = "debug_print"
+version = "0.0.0"
+edition = "2021"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+# https://github.com/dtolnay/proc-macro-workshop#debugging-tips
+syn = { version = "*", features = ["full"] }
+quote = "*"
+proc-macro2 = "*"
